@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Simon</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet" />
+  </head>
+
+  <body>
+    <h1 id="simon">Simon</h1>
+    <h1 id="level-title">Press any key to Start</h1>
+    <div class="flex-container">
+      <div class="flex-item-left">
+        <div class="row">
+          <div type="button" id="green" class="btn green"></div>
+          <div type="button" id="red" class="btn red"></div>
+        </div>
+
+        <div class="row">
+          <div type="button" id="yellow" class="btn yellow"></div>
+          <div type="button" id="blue" class="btn blue"></div>
+        </div>
+      </div>
+      <div class="flex-item-right">
+        <h1 id="instructions">How to play the Simon game:</h1>
+        <ul>
+          <li>The game has four colored buttons, each producing a particular tone when it is pressed or activated by the computer and the player.</li>
+          <li>A round in the game consists of the computer lighting up one or more buttons in a random order, after which the player must reproduce that order by pressing the buttons.</li>
+          <li>As the game progresses, the number of buttons to be pressed increases.</li>
+        </ul>
+      </div>
+    </div>
+
+    <footer class="using">
+      <span>
+        <h4 style="display: inline; vertical-align: middle">Made with 🤍 by Aakash M. using&nbsp;</h2>
+        <img style="display: inline; vertical-align: middle" class="icon" src="images/html-icon.png" alt="html-icon">&nbsp;</img>
+        <img style="display: inline; vertical-align: middle" class="icon" src="images/css-icon.png" alt="css-icon">&nbsp;</img>
+        <img style="display: inline; vertical-align: middle" class="icon" src="images/js-icon.png" alt="js-icon">&nbsp;</img>
+      </span>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="game.js"></script>
+  </body>
+</html>
